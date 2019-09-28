@@ -1,26 +1,26 @@
-import { ApolloServer} from "apollo-server-express";
-import Express from 'express';
+import { ApolloServer } from 'apollo-server-express'
+import Express from 'express'
 import { buildSchema } from 'type-graphql'
-import PretendResolver from "./resolvers/pretend";
-import 'reflect-metadata';
-import {createConnection} from "typeorm";
-import TaxesResolver from "./resolvers/taxes";
+import PretendResolver from './resolvers/pretend'
+import 'reflect-metadata'
+import { createConnection } from 'typeorm'
+import TaxesResolver from './resolvers/taxes'
 
 const main = async () => {
-    await createConnection();
+    await createConnection()
 
-    const PORT = 4000;
+    const PORT = 4000
     const schema = await buildSchema({
         resolvers: [PretendResolver, TaxesResolver],
-    });
+    })
 
-    const apolloServer = new ApolloServer({ schema });
+    const apolloServer = new ApolloServer({ schema })
 
-    const app = Express();
+    const app = Express()
 
-    apolloServer.applyMiddleware({ app });
+    apolloServer.applyMiddleware({ app })
 
     app.listen(PORT, () => console.log(`listening on port ${PORT}...`))
-};
+}
 
-main().then();
+main().then()
