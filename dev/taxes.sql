@@ -19,14 +19,14 @@ CREATE TABLE taxes(
 	res_code text,
 	amount_due real,
 	as_of_date timestamp,
-	neighborhood text,
-	police_district text,
-	council_district text,
+	neighborhood_id integer,
+	police_district_id integer,
+	council_district_id integer,
 	location_lat real,
 	location_long real,
-	computed_region_5kre_ccpb integer,
-	computed_region_gwq4_fjxs integer,
-	computed_region_s6p5_2pgr integer
+	computed_region_a integer,
+	computed_region_b integer,
+	computed_region_c integer
 );
 
 CREATE TABLE neighborhoods(
