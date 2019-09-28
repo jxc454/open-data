@@ -2,7 +2,8 @@ const fs = require('fs');
 import { difference } from 'lodash';
 
 export function readTaxes(): {meta: object, data: [object]} {
-    return JSON.parse(fs.readFileSync('dev/data/real-property-taxes.json'));
+    // return JSON.parse(fs.readFileSync('dev/data/real-property-taxes.json'));
+    return JSON.parse(fs.readFileSync('/Users/jamesoncotter-ciambotti/Downloads/real-property-taxes.json'));
 }
 
 export function validateTaxes(input: {meta: object, data: [object]}): void {
