@@ -1,0 +1,11 @@
+{
+  "name": "open-data-baltimore",
+  "version": "1.0.0",
+  "description": "open data baltimore projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "jxc454",
+  "license": "ISC"
+}
