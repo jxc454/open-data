@@ -15,23 +15,23 @@ export default class Taxes extends BaseEntity {
     @Column({ type: 'number' })
     public position: number;
 
-    @Column({ type: 'timestamp', name: 'createdAt' })
-    public created_at: Date;
+    @Column({ type: 'timestamp', name: 'created_at' })
+    public createdAt: Date;
 
-    @Column({ type: 'timestamp', name: 'createdMeta' })
-    public created_meta: Date;
+    @Column({ type: 'timestamp', name: 'created_meta' })
+    public createdMeta: Date;
 
-    @Column({ type: 'timestamp', name: 'updatedAt' })
-    public updated_at: Date;
+    @Column({ type: 'timestamp', name: 'updated_at' })
+    public updatedAt: Date;
 
-    @Column({ type: 'timestamp', name: 'updatedMeta' })
-    public updated_meta: Date;
+    @Column({ type: 'timestamp', name: 'updated_meta' })
+    public updatedMeta: Date;
 
     @Column({ type: 'text' })
     public meta: string;
 
-    @Column({ type: 'text', name: 'propertyId' })
-    public property_id: string;
+    @Column({ type: 'text', name: 'property_id' })
+    public propertyId: string;
 
     @Column({ type: 'text' })
     public block: string;
@@ -45,49 +45,49 @@ export default class Taxes extends BaseEntity {
     @Column({ type: 'text' })
     public sect: string;
 
-    @Column({ type: 'text', name: 'propertyAddress' })
-    public property_address: string;
+    @Column({ type: 'text', name: 'property_address' })
+    public propertyAddress: string;
 
-    @Column({ type: 'text', name: 'lotSize' })
-    public lot_size: string;
+    @Column({ type: 'text', name: 'lot_size' })
+    public lotSize: string;
 
     @Field(() => Float)
-    @Column({ type: 'real', name: 'cityTax' })
-    public city_tax: number;
+    @Column({ type: 'real', name: 'city_tax' })
+    public cityTax: number;
 
-    @Column({ type: 'real', name: 'stateTax' })
-    state_tax : number;
+    @Column({ type: 'real', name: 'state_tax' })
+    public stateTax : number;
 
-    @Column({ type: 'text', name: 'resCode' })
-    res_code: string;
+    @Column({ type: 'text', name: 'res_code' })
+    public resCode: string;
 
-    @Column({ type: 'real', name: 'amountDue' })
-    amount_due : number;
+    @Column({ type: 'real', name: 'amount_due' })
+    public amountDue : number;
 
-    @Column({ type: 'timestamp', name: 'asOfDate' })
-    as_of_date: Date;
+    @Column({ type: 'timestamp', name: 'as_of_date' })
+    public asOfDate: Date;
 
-    @Column({ type: 'integer', name: 'neighborhoodId' })
-    neighborhood_id: number;
+    @Column({ type: 'integer', name: 'neighborhood_id' })
+    public neighborhoodId: number;
 
-    @Column({ type: 'integer', name: 'policeDistrictId' })
-    police_district_id: string;
+    @Column({ type: 'integer', name: 'police_district_id' })
+    public policeDistrictId: string;
 
-    @Column({ type: 'integer', name: 'councilDistrictId' })
-    council_district_id: string;
+    @Column({ type: 'integer', name: 'council_district_id' })
+    public councilDistrictId: string;
 
-    @Column({ type: 'real', name: 'locationLat' })
-    location_lat : number;
+    @Column({ type: 'real', name: 'location_lat' })
+    public locationLat : number;
 
-    @Column({ type: 'real', name: 'locationLong' })
-    location_long : number;
+    @Column({ type: 'real', name: 'location_long' })
+    public locationLong : number;
 
-    @Column({ type: 'integer', name: 'computedRegionA' })
-    computed_region_a : number;
+    @Column({ type: 'integer', name: 'computed_region_a' })
+    public computedRegionA : number;
 
-    @Column({ type: 'integer', name: 'computedRegionB' })
-    computed_region_b : number;
+    @Column({ type: 'integer', name: 'computed_region_b' })
+    public computedRegionB : number;
 
-    @Column({ type: 'integer', name: 'computedRegionC' })
-    computed_region_c : number;
+    @Column({ type: 'integer', name: 'computed_region_c' })
+    public computedRegionC : number;
 }
