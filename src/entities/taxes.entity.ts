@@ -1,5 +1,5 @@
 import {BaseEntity, Entity} from 'typeorm';
-import {ObjectType} from 'type-graphql';
+import {Field, ID, ObjectType, Float} from 'type-graphql';
 import {Column} from "typeorm";
 
 @ObjectType()
@@ -8,6 +8,7 @@ export default class Taxes extends BaseEntity {
     @Column({ type: 'text' })
     public sid: string;
 
+    @Field(() => ID)
     @Column({ type: 'text' })
     public id: string;
 
@@ -50,6 +51,7 @@ export default class Taxes extends BaseEntity {
     @Column({ type: 'text', name: 'lotSize' })
     public lot_size: string;
 
+    @Field(() => Float)
     @Column({ type: 'real', name: 'cityTax' })
     public city_tax: number;
 

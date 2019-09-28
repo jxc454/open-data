@@ -1,0 +1,1429 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "27w9-urtv",
+      "name" : "Real Property Taxes",
+      "attribution" : "Department of Finance",
+      "attributionLink" : "http://www.baltimorecity.gov/Government/AgenciesDepartments/Finance.aspx",
+      "averageRating" : 0,
+      "category" : "Financial",
+      "createdAt" : 1295713661,
+      "description" : "Current Real Property Tax in Baltimore. For more detailed information, visit SDAT at http://sdat.resiusa.org/RealProperty/Pages/default.aspx",
+      "displayType" : "table",
+      "downloadCount" : 5378,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "indexUpdatedAt" : 1557226826,
+      "licenseId" : "CC_30_BY",
+      "newBackend" : true,
+      "numberOfComments" : 4,
+      "oid" : 28963295,
+      "provenance" : "official",
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1528218862,
+      "publicationGroup" : 221211,
+      "publicationStage" : "published",
+      "rowIdentifierColumnId" : 362253081,
+      "rowsUpdatedAt" : 1569582003,
+      "rowsUpdatedBy" : "6r9a-dfdj",
+      "tableId" : 15248248,
+      "totalTimesRated" : 0,
+      "viewCount" : 26378,
+      "viewLastModified" : 1528218862,
+      "viewType" : "tabular",
+      "approvals" : [ {
+        "reviewedAt" : 1528218862,
+        "reviewedAutomatically" : true,
+        "state" : "approved",
+        "submissionId" : 364901,
+        "submissionObject" : "public_audience_request",
+        "submissionOutcome" : "change_audience",
+        "submittedAt" : 1528218862,
+        "workflowId" : 794,
+        "submissionDetails" : {
+          "permissionType" : "READ"
+        },
+        "submissionOutcomeApplication" : {
+          "failureCount" : 0,
+          "status" : "success"
+        },
+        "submitter" : {
+          "id" : "6r9a-dfdj",
+          "displayName" : "Open Baltimore"
+        }
+      } ],
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 362253081,
+        "name" : "PropertyID",
+        "dataTypeName" : "text",
+        "description" : "Primary key",
+        "fieldName" : "propertyid",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 35304435,
+        "width" : 100,
+        "cachedContents" : {
+          "largest" : "PSC0085",
+          "non_null" : 238596,
+          "null" : "0",
+          "top" : [ {
+            "item" : "0001002",
+            "count" : "1"
+          }, {
+            "item" : "0001003",
+            "count" : "1"
+          }, {
+            "item" : "0001004",
+            "count" : "1"
+          }, {
+            "item" : "0001005",
+            "count" : "1"
+          }, {
+            "item" : "0001006",
+            "count" : "1"
+          }, {
+            "item" : "0001007",
+            "count" : "1"
+          }, {
+            "item" : "0001008",
+            "count" : "1"
+          }, {
+            "item" : "0001009",
+            "count" : "1"
+          }, {
+            "item" : "0001010",
+            "count" : "1"
+          }, {
+            "item" : "0001011",
+            "count" : "1"
+          }, {
+            "item" : "0001012",
+            "count" : "1"
+          }, {
+            "item" : "0001013",
+            "count" : "1"
+          }, {
+            "item" : "0001014",
+            "count" : "1"
+          }, {
+            "item" : "0001015",
+            "count" : "1"
+          }, {
+            "item" : "0001016",
+            "count" : "1"
+          }, {
+            "item" : "0001019",
+            "count" : "1"
+          }, {
+            "item" : "0001020",
+            "count" : "1"
+          }, {
+            "item" : "0001021",
+            "count" : "1"
+          }, {
+            "item" : "0001022",
+            "count" : "1"
+          }, {
+            "item" : "0001023",
+            "count" : "1"
+          } ],
+          "smallest" : "0001001",
+          "not_null" : "238036",
+          "cardinality" : "238036"
+        },
+        "format" : { }
+      }, {
+        "id" : 362253082,
+        "name" : "Block",
+        "dataTypeName" : "text",
+        "fieldName" : "block",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1434261,
+        "width" : 59,
+        "cachedContents" : {
+          "largest" : "PSC0",
+          "non_null" : 238596,
+          "null" : "0",
+          "top" : [ {
+            "item" : "5387",
+            "count" : "982"
+          }, {
+            "item" : "5138A",
+            "count" : "928"
+          }, {
+            "item" : "5267O",
+            "count" : "839"
+          }, {
+            "item" : "6190",
+            "count" : "836"
+          }, {
+            "item" : "4778E",
+            "count" : "809"
+          }, {
+            "item" : "1922",
+            "count" : "776"
+          }, {
+            "item" : "6172",
+            "count" : "701"
+          }, {
+            "item" : "5237",
+            "count" : "674"
+          }, {
+            "item" : "2530C",
+            "count" : "623"
+          }, {
+            "item" : "3695A",
+            "count" : "458"
+          }, {
+            "item" : "1404",
+            "count" : "444"
+          }, {
+            "item" : "2024",
+            "count" : "443"
+          }, {
+            "item" : "7492C",
+            "count" : "416"
+          }, {
+            "item" : "5555",
+            "count" : "407"
+          }, {
+            "item" : "3702",
+            "count" : "374"
+          }, {
+            "item" : "3970F",
+            "count" : "369"
+          }, {
+            "item" : "5237B",
+            "count" : "365"
+          }, {
+            "item" : "1799A",
+            "count" : "356"
+          }, {
+            "item" : "7993A",
+            "count" : "343"
+          }, {
+            "item" : "7654G",
+            "count" : "337"
+          } ],
+          "smallest" : "0001",
+          "not_null" : "238036",
+          "cardinality" : "5552"
+        },
+        "format" : {
+          "align" : "right"
+        }
+      }, {
+        "id" : 362253083,
+        "name" : "Lot",
+        "dataTypeName" : "text",
+        "fieldName" : "lot",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1434262,
+        "width" : 50,
+        "cachedContents" : {
+          "largest" : "951",
+          "non_null" : 238596,
+          "null" : "0",
+          "top" : [ {
+            "item" : "001",
+            "count" : "5549"
+          }, {
+            "item" : "005",
+            "count" : "4247"
+          }, {
+            "item" : "004",
+            "count" : "4216"
+          }, {
+            "item" : "006",
+            "count" : "4200"
+          }, {
+            "item" : "003",
+            "count" : "4200"
+          }, {
+            "item" : "007",
+            "count" : "4191"
+          }, {
+            "item" : "008",
+            "count" : "4111"
+          }, {
+            "item" : "009",
+            "count" : "4091"
+          }, {
+            "item" : "002",
+            "count" : "4061"
+          }, {
+            "item" : "011",
+            "count" : "3982"
+          }, {
+            "item" : "010",
+            "count" : "3978"
+          }, {
+            "item" : "012",
+            "count" : "3914"
+          }, {
+            "item" : "013",
+            "count" : "3879"
+          }, {
+            "item" : "014",
+            "count" : "3784"
+          }, {
+            "item" : "015",
+            "count" : "3759"
+          }, {
+            "item" : "016",
+            "count" : "3669"
+          }, {
+            "item" : "017",
+            "count" : "3626"
+          }, {
+            "item" : "018",
+            "count" : "3502"
+          }, {
+            "item" : "019",
+            "count" : "3438"
+          }, {
+            "item" : "020",
+            "count" : "3363"
+          } ],
+          "smallest" : "001",
+          "not_null" : "238036",
+          "cardinality" : "3068"
+        },
+        "format" : {
+          "align" : "right"
+        }
+      }, {
+        "id" : 362253084,
+        "name" : "Ward",
+        "dataTypeName" : "text",
+        "fieldName" : "ward",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1434259,
+        "width" : 56,
+        "cachedContents" : {
+          "largest" : "50",
+          "non_null" : 238596,
+          "null" : "0",
+          "top" : [ {
+            "item" : "27",
+            "count" : "50160"
+          }, {
+            "item" : "26",
+            "count" : "25747"
+          }, {
+            "item" : "15",
+            "count" : "18625"
+          }, {
+            "item" : "25",
+            "count" : "14807"
+          }, {
+            "item" : "20",
+            "count" : "11919"
+          }, {
+            "item" : "09",
+            "count" : "11835"
+          }, {
+            "item" : "08",
+            "count" : "11428"
+          }, {
+            "item" : "16",
+            "count" : "11284"
+          }, {
+            "item" : "28",
+            "count" : "10233"
+          }, {
+            "item" : "13",
+            "count" : "9598"
+          }, {
+            "item" : "12",
+            "count" : "8876"
+          }, {
+            "item" : "01",
+            "count" : "6631"
+          }, {
+            "item" : "24",
+            "count" : "6080"
+          }, {
+            "item" : "07",
+            "count" : "4782"
+          }, {
+            "item" : "06",
+            "count" : "4502"
+          }, {
+            "item" : "19",
+            "count" : "3819"
+          }, {
+            "item" : "11",
+            "count" : "3579"
+          }, {
+            "item" : "02",
+            "count" : "3542"
+          }, {
+            "item" : "21",
+            "count" : "3180"
+          }, {
+            "item" : "14",
+            "count" : "3026"
+          } ],
+          "smallest" : "01",
+          "not_null" : "238036",
+          "cardinality" : "29"
+        },
+        "format" : {
+          "align" : "right",
+          "aggregate" : "count"
+        }
+      }, {
+        "id" : 362253085,
+        "name" : "Sect",
+        "dataTypeName" : "text",
+        "fieldName" : "sect",
+        "position" : 5,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1434260,
+        "width" : 58,
+        "cachedContents" : {
+          "largest" : "690",
+          "non_null" : 238596,
+          "null" : "0",
+          "top" : [ {
+            "item" : "010",
+            "count" : "18920"
+          }, {
+            "item" : "050",
+            "count" : "14814"
+          }, {
+            "item" : "020",
+            "count" : "14097"
+          }, {
+            "item" : "030",
+            "count" : "12912"
+          }, {
+            "item" : "040",
+            "count" : "12912"
+          }, {
+            "item" : "060",
+            "count" : "12085"
+          }, {
+            "item" : "080",
+            "count" : "8762"
+          }, {
+            "item" : "200",
+            "count" : "8471"
+          }, {
+            "item" : "220",
+            "count" : "7914"
+          }, {
+            "item" : "130",
+            "count" : "7861"
+          }, {
+            "item" : "170",
+            "count" : "7670"
+          }, {
+            "item" : "090",
+            "count" : "7096"
+          }, {
+            "item" : "160",
+            "count" : "6862"
+          }, {
+            "item" : "180",
+            "count" : "6838"
+          }, {
+            "item" : "070",
+            "count" : "6828"
+          }, {
+            "item" : "120",
+            "count" : "6808"
+          }, {
+            "item" : "190",
+            "count" : "6365"
+          }, {
+            "item" : "110",
+            "count" : "6297"
+          }, {
+            "item" : "230",
+            "count" : "5917"
+          }, {
+            "item" : "100",
+            "count" : "5917"
+          } ],
+          "smallest" : "000",
+          "not_null" : "238036",
+          "cardinality" : "66"
+        },
+        "format" : {
+          "align" : "right"
+        }
+      }, {
+        "id" : 362253086,
+        "name" : "PropertyAddress",
+        "dataTypeName" : "text",
+        "fieldName" : "propertyaddress",
+        "position" : 6,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1434237,
+        "width" : 250,
+        "cachedContents" : {
+          "largest" : "YORK CT 482 FT S OF UNDERWOOD RD",
+          "non_null" : 238591,
+          "null" : "5",
+          "top" : [ {
+            "item" : "1101 - 1201 HORNERS LANE U# CO-OP",
+            "count" : "812"
+          }, {
+            "item" : "1000 HORNERS LANE U# CO-OP",
+            "count" : "677"
+          }, {
+            "item" : "SS 15 FT ALLEY 1ST S OF",
+            "count" : "112"
+          }, {
+            "item" : "NS 15 FT ALLEY 1ST N OF",
+            "count" : "83"
+          }, {
+            "item" : "WS 15 FT ALLEY 1ST W OF",
+            "count" : "56"
+          }, {
+            "item" : "NS 15 FT ALLEY",
+            "count" : "53"
+          }, {
+            "item" : "WS 15 FT ALLEY",
+            "count" : "51"
+          }, {
+            "item" : "WS 10 FT ALLEY 1ST W OF",
+            "count" : "46"
+          }, {
+            "item" : "ES 10 FT ALLEY 1ST E OF",
+            "count" : "44"
+          }, {
+            "item" : "NS 10 FT ALLEY 1ST N OF",
+            "count" : "43"
+          }, {
+            "item" : "SS 20 FT ALLEY",
+            "count" : "40"
+          }, {
+            "item" : "ES 15 FT ALLEY 1ST E OF",
+            "count" : "39"
+          }, {
+            "item" : "NWS 10 FT ALLEY",
+            "count" : "38"
+          }, {
+            "item" : "SWS 16 FT ALLEY 1ST",
+            "count" : "38"
+          }, {
+            "item" : "SS 10 FT ALLEY 1ST S OF",
+            "count" : "38"
+          }, {
+            "item" : "REAR NS FEDERAL ST",
+            "count" : "37"
+          }, {
+            "item" : "SS 20 FT ALLEY 1ST S OF",
+            "count" : "35"
+          }, {
+            "item" : "SS 15 FT ALLEY",
+            "count" : "34"
+          }, {
+            "item" : "NS 20 FT ALLEY 1ST N OF",
+            "count" : "34"
+          }, {
+            "item" : "NWS 15 FT ALLEY 1ST",
+            "count" : "33"
+          } ],
+          "smallest" : "1000 - 1002 E LOMBARD ST",
+          "not_null" : "238031",
+          "cardinality" : "233220"
+        },
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 362253087,
+        "name" : "LotSize",
+        "dataTypeName" : "text",
+        "fieldName" : "lotsize",
+        "position" : 7,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1434238,
+        "width" : 95,
+        "cachedContents" : {
+          "largest" : "  X134           ",
+          "non_null" : 238596,
+          "null" : "0",
+          "top" : [ {
+            "item" : "14X70            ",
+            "count" : "2782"
+          }, {
+            "item" : "14X80            ",
+            "count" : "1868"
+          }, {
+            "item" : "50X150           ",
+            "count" : "1857"
+          }, {
+            "item" : "14X100           ",
+            "count" : "1806"
+          }, {
+            "item" : "16X100           ",
+            "count" : "1768"
+          }, {
+            "item" : "14X75            ",
+            "count" : "1684"
+          }, {
+            "item" : "50X125           ",
+            "count" : "1645"
+          }, {
+            "item" : "20X100           ",
+            "count" : "1628"
+          }, {
+            "item" : "13X70            ",
+            "count" : "1286"
+          }, {
+            "item" : "12X60            ",
+            "count" : "1235"
+          }, {
+            "item" : "18X100           ",
+            "count" : "1209"
+          }, {
+            "item" : "12X70            ",
+            "count" : "1135"
+          }, {
+            "item" : "14X90            ",
+            "count" : "1114"
+          }, {
+            "item" : "15X70            ",
+            "count" : "901"
+          }, {
+            "item" : "15X90            ",
+            "count" : "885"
+          }, {
+            "item" : "15X80            ",
+            "count" : "828"
+          }, {
+            "item" : "50X120           ",
+            "count" : "800"
+          }, {
+            "item" : "13X80            ",
+            "count" : "795"
+          }, {
+            "item" : "13-6X70          ",
+            "count" : "761"
+          }, {
+            "item" : "16X90            ",
+            "count" : "696"
+          } ],
+          "smallest" : "                 ",
+          "not_null" : "238036",
+          "cardinality" : "60228"
+        },
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 362253088,
+        "name" : "CityTax",
+        "dataTypeName" : "number",
+        "fieldName" : "citytax",
+        "position" : 8,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1434264,
+        "width" : 102,
+        "cachedContents" : {
+          "largest" : "6276442.98",
+          "non_null" : 219535,
+          "average" : "4042.911785455622",
+          "null" : "18697",
+          "top" : [ {
+            "item" : "674.4000",
+            "count" : "5355"
+          }, {
+            "item" : "562.0000",
+            "count" : "3845"
+          }, {
+            "item" : "337.2000",
+            "count" : "3291"
+          }, {
+            "item" : "809.2800",
+            "count" : "3232"
+          }, {
+            "item" : "22.4800",
+            "count" : "3104"
+          }, {
+            "item" : "112.4000",
+            "count" : "2994"
+          }, {
+            "item" : "1126.2500",
+            "count" : "1749"
+          }, {
+            "item" : "67.44",
+            "count" : "1683"
+          }, {
+            "item" : "382.1600",
+            "count" : "1571"
+          }, {
+            "item" : "472.0800",
+            "count" : "1515"
+          }, {
+            "item" : "899.2000",
+            "count" : "1253"
+          }, {
+            "item" : "89.9200",
+            "count" : "1206"
+          }, {
+            "item" : "764.3200",
+            "count" : "1181"
+          }, {
+            "item" : "651.9200",
+            "count" : "1173"
+          }, {
+            "item" : "427.1200",
+            "count" : "991"
+          }, {
+            "item" : "269.7600",
+            "count" : "926"
+          }, {
+            "item" : "1348.8000",
+            "count" : "855"
+          }, {
+            "item" : "1011.6000",
+            "count" : "838"
+          }, {
+            "item" : "696.8800",
+            "count" : "833"
+          }, {
+            "item" : "449.6000",
+            "count" : "767"
+          } ],
+          "smallest" : "2.25",
+          "not_null" : "219339",
+          "sum" : "887560638.8200",
+          "cardinality" : "18205"
+        },
+        "format" : {
+          "precisionStyle" : "currency",
+          "humane" : "false",
+          "currencyStyle" : "USD",
+          "precision" : "2",
+          "align" : "right",
+          "aggregate" : "sum"
+        }
+      }, {
+        "id" : 362253089,
+        "name" : "StateTax",
+        "dataTypeName" : "number",
+        "fieldName" : "statetax",
+        "position" : 9,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1434265,
+        "width" : 91,
+        "cachedContents" : {
+          "largest" : "312705.34",
+          "non_null" : 219733,
+          "average" : "204.5001268812604",
+          "null" : "18496",
+          "top" : [ {
+            "item" : "33.6000",
+            "count" : "5355"
+          }, {
+            "item" : "28.0000",
+            "count" : "3845"
+          }, {
+            "item" : "16.8000",
+            "count" : "3291"
+          }, {
+            "item" : "40.3200",
+            "count" : "3245"
+          }, {
+            "item" : "1.1200",
+            "count" : "3104"
+          }, {
+            "item" : "5.6000",
+            "count" : "2994"
+          }, {
+            "item" : "56.1100",
+            "count" : "1749"
+          }, {
+            "item" : "3.36",
+            "count" : "1683"
+          }, {
+            "item" : "19.0400",
+            "count" : "1571"
+          }, {
+            "item" : "23.5200",
+            "count" : "1515"
+          }, {
+            "item" : "44.8000",
+            "count" : "1253"
+          }, {
+            "item" : "4.4800",
+            "count" : "1206"
+          }, {
+            "item" : "38.0800",
+            "count" : "1181"
+          }, {
+            "item" : "32.4800",
+            "count" : "1173"
+          }, {
+            "item" : "21.2800",
+            "count" : "991"
+          }, {
+            "item" : "13.4400",
+            "count" : "926"
+          }, {
+            "item" : "67.2000",
+            "count" : "855"
+          }, {
+            "item" : "50.4000",
+            "count" : "838"
+          }, {
+            "item" : "34.7200",
+            "count" : "833"
+          }, {
+            "item" : "22.4000",
+            "count" : "767"
+          } ],
+          "smallest" : "0.11",
+          "not_null" : "219540",
+          "sum" : "44935426.3800",
+          "cardinality" : "18117"
+        },
+        "format" : {
+          "precisionStyle" : "currency",
+          "humane" : "false",
+          "currencyStyle" : "USD",
+          "precision" : "2",
+          "align" : "right",
+          "aggregate" : "sum"
+        }
+      }, {
+        "id" : 362253090,
+        "name" : "ResCode",
+        "dataTypeName" : "text",
+        "fieldName" : "rescode",
+        "position" : 10,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1434255,
+        "width" : 205,
+        "cachedContents" : {
+          "largest" : "PRINCIPAL RESIDENCE      ",
+          "non_null" : 238596,
+          "null" : "0",
+          "top" : [ {
+            "item" : "NOT A PRINCIPAL RESIDENCE",
+            "count" : "125478"
+          }, {
+            "item" : "PRINCIPAL RESIDENCE      ",
+            "count" : "112558"
+          } ],
+          "smallest" : "NOT A PRINCIPAL RESIDENCE",
+          "not_null" : "238036",
+          "cardinality" : "2"
+        },
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 362253091,
+        "name" : "AmountDue",
+        "dataTypeName" : "number",
+        "fieldName" : "amountdue",
+        "position" : 11,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1434273,
+        "width" : 111,
+        "cachedContents" : {
+          "largest" : "4792370.8400",
+          "non_null" : 138291,
+          "average" : "3223.375993303975",
+          "null" : "70718",
+          "top" : [ {
+            "item" : "23.6000",
+            "count" : "2331"
+          }, {
+            "item" : "118.0000",
+            "count" : "2038"
+          }, {
+            "item" : "70.8000",
+            "count" : "1045"
+          }, {
+            "item" : "590.0000",
+            "count" : "1033"
+          }, {
+            "item" : "708.0000",
+            "count" : "957"
+          }, {
+            "item" : "94.4000",
+            "count" : "754"
+          }, {
+            "item" : "849.6000",
+            "count" : "663"
+          }, {
+            "item" : "354.0000",
+            "count" : "641"
+          }, {
+            "item" : "133.7400",
+            "count" : "580"
+          }, {
+            "item" : "401.2000",
+            "count" : "492"
+          }, {
+            "item" : "704.6300",
+            "count" : "451"
+          }, {
+            "item" : "141.6000",
+            "count" : "437"
+          }, {
+            "item" : "165.2000",
+            "count" : "406"
+          }, {
+            "item" : "1182.3600",
+            "count" : "390"
+          }, {
+            "item" : "537.0900",
+            "count" : "368"
+          }, {
+            "item" : "684.4000",
+            "count" : "357"
+          }, {
+            "item" : "587.1900",
+            "count" : "356"
+          }, {
+            "item" : "642.6800",
+            "count" : "356"
+          }, {
+            "item" : "283.2000",
+            "count" : "355"
+          }, {
+            "item" : "495.6000",
+            "count" : "336"
+          } ],
+          "smallest" : "0.0200",
+          "not_null" : "167318",
+          "sum" : "445763889.4900",
+          "cardinality" : "84294"
+        },
+        "format" : {
+          "precisionStyle" : "currency",
+          "humane" : "false",
+          "currencyStyle" : "USD",
+          "precision" : "2",
+          "align" : "right",
+          "aggregate" : "sum"
+        }
+      }, {
+        "id" : 362253092,
+        "name" : "AsOfDate",
+        "dataTypeName" : "calendar_date",
+        "fieldName" : "asofdate",
+        "position" : 12,
+        "renderTypeName" : "calendar_date",
+        "tableColumnId" : 1434258,
+        "width" : 108,
+        "cachedContents" : {
+          "largest" : "2019-09-26T00:00:00.000",
+          "non_null" : 238596,
+          "null" : "0",
+          "top" : [ {
+            "item" : "2019-07-31T00:00:00.000",
+            "count" : "113570"
+          }, {
+            "item" : "2018-06-04T00:00:00.000",
+            "count" : "65508"
+          }, {
+            "item" : "2019-07-09T00:00:00.000",
+            "count" : "39776"
+          }, {
+            "item" : "2018-07-01T00:00:00.000",
+            "count" : "4688"
+          }, {
+            "item" : "2019-08-03T00:00:00.000",
+            "count" : "761"
+          }, {
+            "item" : "2019-08-01T00:00:00.000",
+            "count" : "711"
+          }, {
+            "item" : "2019-08-27T00:00:00.000",
+            "count" : "701"
+          }, {
+            "item" : "2019-08-05T00:00:00.000",
+            "count" : "559"
+          }, {
+            "item" : "2019-09-03T00:00:00.000",
+            "count" : "538"
+          }, {
+            "item" : "2019-08-20T00:00:00.000",
+            "count" : "465"
+          }, {
+            "item" : "2019-08-28T00:00:00.000",
+            "count" : "360"
+          }, {
+            "item" : "2019-08-06T00:00:00.000",
+            "count" : "349"
+          }, {
+            "item" : "2019-08-10T00:00:00.000",
+            "count" : "346"
+          }, {
+            "item" : "2019-09-16T00:00:00.000",
+            "count" : "333"
+          }, {
+            "item" : "2019-08-17T00:00:00.000",
+            "count" : "308"
+          }, {
+            "item" : "2019-08-26T00:00:00.000",
+            "count" : "305"
+          }, {
+            "item" : "2019-07-29T00:00:00.000",
+            "count" : "300"
+          }, {
+            "item" : "2019-08-12T00:00:00.000",
+            "count" : "298"
+          }, {
+            "item" : "2019-08-08T00:00:00.000",
+            "count" : "294"
+          }, {
+            "item" : "2019-09-09T00:00:00.000",
+            "count" : "293"
+          } ],
+          "smallest" : "2018-06-04T00:00:00.000",
+          "not_null" : "238036",
+          "cardinality" : "238"
+        },
+        "format" : {
+          "view" : "date",
+          "align" : "left"
+        }
+      }, {
+        "id" : 362253093,
+        "name" : "Neighborhood",
+        "dataTypeName" : "text",
+        "fieldName" : "neighborhood",
+        "position" : 13,
+        "renderTypeName" : "text",
+        "tableColumnId" : 35304439,
+        "width" : 100,
+        "cachedContents" : {
+          "largest" : "York-Homeland",
+          "non_null" : 222387,
+          "null" : "16049",
+          "top" : [ {
+            "item" : "Belair-Edison",
+            "count" : "6345"
+          }, {
+            "item" : "Canton",
+            "count" : "6029"
+          }, {
+            "item" : "Frankford",
+            "count" : "4177"
+          }, {
+            "item" : "Broadway East",
+            "count" : "3857"
+          }, {
+            "item" : "Sandtown-Winchester",
+            "count" : "3847"
+          }, {
+            "item" : "Hampden",
+            "count" : "3366"
+          }, {
+            "item" : "Brooklyn",
+            "count" : "3144"
+          }, {
+            "item" : "Coldstream Homestead Montebello",
+            "count" : "3105"
+          }, {
+            "item" : "Central Park Heights",
+            "count" : "2859"
+          }, {
+            "item" : "Riverside",
+            "count" : "2851"
+          }, {
+            "item" : "Washington Village/Pigtown",
+            "count" : "2845"
+          }, {
+            "item" : "Oliver",
+            "count" : "2594"
+          }, {
+            "item" : "Waltherson",
+            "count" : "2573"
+          }, {
+            "item" : "Hamilton Hills",
+            "count" : "2482"
+          }, {
+            "item" : "Patterson Park Neighborhood",
+            "count" : "2452"
+          }, {
+            "item" : "Carrollton Ridge",
+            "count" : "2294"
+          }, {
+            "item" : "North Harford Road",
+            "count" : "2232"
+          }, {
+            "item" : "Glenham-Belhar",
+            "count" : "2221"
+          }, {
+            "item" : "Howard Park",
+            "count" : "2109"
+          }, {
+            "item" : "Harlem Park",
+            "count" : "1964"
+          } ],
+          "smallest" : "Abell",
+          "not_null" : "221987",
+          "cardinality" : "278"
+        },
+        "format" : { }
+      }, {
+        "id" : 362253094,
+        "name" : "PoliceDistrict",
+        "dataTypeName" : "text",
+        "fieldName" : "policedistrict",
+        "position" : 14,
+        "renderTypeName" : "text",
+        "tableColumnId" : 35304440,
+        "width" : 100,
+        "cachedContents" : {
+          "largest" : "Western",
+          "non_null" : 222387,
+          "null" : "16049",
+          "top" : [ {
+            "item" : "Notheastern",
+            "count" : "42258"
+          }, {
+            "item" : "Northern",
+            "count" : "30485"
+          }, {
+            "item" : "Southeastern",
+            "count" : "27128"
+          }, {
+            "item" : "Southwestern",
+            "count" : "25696"
+          }, {
+            "item" : "Southern",
+            "count" : "25165"
+          }, {
+            "item" : "Northwestern",
+            "count" : "23613"
+          }, {
+            "item" : "Eastern",
+            "count" : "19473"
+          }, {
+            "item" : "Western",
+            "count" : "19336"
+          }, {
+            "item" : "Central",
+            "count" : "8833"
+          } ],
+          "smallest" : "Central",
+          "not_null" : "221987",
+          "cardinality" : "9"
+        },
+        "format" : { }
+      }, {
+        "id" : 362253095,
+        "name" : "CouncilDistrict",
+        "dataTypeName" : "number",
+        "fieldName" : "councildistrict",
+        "position" : 15,
+        "renderTypeName" : "number",
+        "tableColumnId" : 35304441,
+        "width" : 100,
+        "cachedContents" : {
+          "largest" : "14",
+          "non_null" : 222415,
+          "average" : "7.594289953465369",
+          "null" : "16021",
+          "top" : [ {
+            "item" : "9",
+            "count" : "22602"
+          }, {
+            "item" : "1",
+            "count" : "20496"
+          }, {
+            "item" : "13",
+            "count" : "18677"
+          }, {
+            "item" : "7",
+            "count" : "17710"
+          }, {
+            "item" : "10",
+            "count" : "16540"
+          }, {
+            "item" : "12",
+            "count" : "15936"
+          }, {
+            "item" : "8",
+            "count" : "14510"
+          }, {
+            "item" : "4",
+            "count" : "14478"
+          }, {
+            "item" : "11",
+            "count" : "14461"
+          }, {
+            "item" : "6",
+            "count" : "14370"
+          }, {
+            "item" : "3",
+            "count" : "14291"
+          }, {
+            "item" : "14",
+            "count" : "13811"
+          }, {
+            "item" : "2",
+            "count" : "12740"
+          }, {
+            "item" : "5",
+            "count" : "11393"
+          } ],
+          "smallest" : "1",
+          "not_null" : "222015",
+          "sum" : "1689084",
+          "cardinality" : "14"
+        },
+        "format" : { }
+      }, {
+        "id" : 362253096,
+        "name" : "Location",
+        "dataTypeName" : "location",
+        "fieldName" : "location",
+        "position" : 16,
+        "renderTypeName" : "location",
+        "tableColumnId" : 35304442,
+        "width" : 100,
+        "format" : { },
+        "subColumnTypes" : [ "human_address", "latitude", "longitude", "machine_address", "needs_recoding" ]
+      }, {
+        "id" : 354150133,
+        "name" : "2010 Census Neighborhoods",
+        "dataTypeName" : "number",
+        "fieldName" : ":@computed_region_5kre_ccpb",
+        "position" : 21,
+        "renderTypeName" : "number",
+        "tableColumnId" : 63599392,
+        "computationStrategy" : {
+          "source_columns" : [ "location" ],
+          "type" : "georegion_match_on_point",
+          "parameters" : {
+            "region" : "_5kre-ccpb",
+            "primary_key" : "_feature_id"
+          }
+        },
+        "format" : { }
+      }, {
+        "id" : 354150134,
+        "name" : "2010 Census Wards Precincts",
+        "dataTypeName" : "number",
+        "fieldName" : ":@computed_region_gwq4_fjxs",
+        "position" : 22,
+        "renderTypeName" : "number",
+        "tableColumnId" : 63599393,
+        "computationStrategy" : {
+          "source_columns" : [ "location" ],
+          "type" : "georegion_match_on_point",
+          "parameters" : {
+            "region" : "_gwq4-fjxs",
+            "primary_key" : "_feature_id"
+          }
+        },
+        "format" : { }
+      }, {
+        "id" : 354150135,
+        "name" : "Zip Codes",
+        "dataTypeName" : "number",
+        "fieldName" : ":@computed_region_s6p5_2pgr",
+        "position" : 23,
+        "renderTypeName" : "number",
+        "tableColumnId" : 63599394,
+        "computationStrategy" : {
+          "source_columns" : [ "location" ],
+          "type" : "georegion_match_on_point",
+          "parameters" : {
+            "region" : "_s6p5-2pgr",
+            "primary_key" : "_feature_id"
+          }
+        },
+        "format" : { }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "license" : {
+        "name" : "Creative Commons Attribution 3.0 Unported",
+        "logoUrl" : "images/licenses/cc30by.png",
+        "termsLink" : "http://creativecommons.org/licenses/by/3.0/legalcode"
+      },
+      "metadata" : {
+        "rdfSubject" : "0",
+        "custom_fields" : {
+          "Updated" : {
+            "Frequency" : "Daily"
+          },
+          "Publishing Entity" : {
+            "Department" : "Finance"
+          }
+        },
+        "rowIdentifier" : 362253081,
+        "rowLabel" : "Row"
+      },
+      "owner" : {
+        "id" : "6r9a-dfdj",
+        "displayName" : "Open Baltimore",
+        "screenName" : "Open Baltimore",
+        "type" : "interactive",
+        "flags" : [ "mayBeStoriesCoOwner" ]
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "6r9a-dfdj",
+        "displayName" : "Open Baltimore",
+        "screenName" : "Open Baltimore",
+        "type" : "interactive",
+        "flags" : [ "mayBeStoriesCoOwner" ]
+      },
+      "tags" : [ "taxes", "property" ],
+      "flags" : [ "default", "restorable", "restorePossibleForType", "unsaved" ]
+    }
+  },
+  "data" : [ [ "row-kcwu~qh62.8m27", "00000000-0000-0000-0F5F-FF501349308C", 0, 1528218950, null, 1564743601, null, "{ }", "0486034", "0486", "034", "11", "010", "1225 N CALVERT ST", "18X107-10        ", "10772.4200", "536.7000", "NOT A PRINCIPAL RESIDENCE", "9801.6200", "2019-08-01T00:00:00", "Mid-Town Belvedere", "Central", "12", [ null, "39.30434897", "-76.61304325", null, false ], "151", "97", "13645" ]
+, [ "row-76pg.8h2q.uftn", "00000000-0000-0000-9F53-AEA6ABADA400", 0, 1528218950, null, 1564743601, null, "{ }", "0503023", "0503", "023", "11", "020", "249 W CHASE ST", "20X100           ", "2978.6000", "148.4000", "NOT A PRINCIPAL RESIDENCE", "1563.5000", "2019-08-01T00:00:00", "Mid-Town Belvedere", "Central", "11", [ null, "39.30123653", "-76.6194394", null, false ], "151", "96", "13642" ]
+, [ "row-wb87-nvf5.kd2m", "00000000-0000-0000-6F63-64FC393F0B8D", 0, 1528218950, null, 1564743601, null, "{ }", "0503024", "0503", "024", "11", "020", "245 - 247 W CHASE ST", "30X100           ", "3567.5800", "177.7400", "NOT A PRINCIPAL RESIDENCE", "1872.6600", "2019-08-01T00:00:00", "Mid-Town Belvedere", "Central", "11", [ null, "39.30129111", "-76.61938694", null, false ], "151", "96", "13642" ]
+, [ "row-httr~in8s~bttm", "00000000-0000-0000-8208-F208EE953DDB", 0, 1528218950, null, 1564743601, null, "{ }", "1132018", "1132", "018", "09", "100", "1422 AISQUITH ST", "13X80            ", "562.0000", "28.0000", "NOT A PRINCIPAL RESIDENCE", "471.9700", "2019-08-01T00:00:00", "Oliver", "Eastern", "12", [ null, "39.30661421", "-76.60256731", null, false ], "180", "193", "13645" ]
+, [ "row-kpvv_q9fc.umay", "00000000-0000-0000-0E77-8353DCBB9A44", 0, 1528218950, null, 1564743601, null, "{ }", "1172030", "1172", "030", "10", "130", "1113 WILLINGER CT", "18X88-8          ", "1910.8000", "95.2000", "PRINCIPAL RESIDENCE      ", "924.9000", "2019-08-01T00:00:00", "Johnston Square", "Eastern", "12", [ null, "39.30335498", "-76.60300693", null, false ], "124", "107", "13645" ]
+, [ "row-yps2.stci_tp9i", "00000000-0000-0000-8D76-BA342D8AA29D", 0, 1528218950, null, 1562770027, null, "{ }", "5489030", "5489", "030", "27", "340", "6607 OLD HARFORD ROAD", "60X160-1         ", "3427.4600", "170.7600", "NOT A PRINCIPAL RESIDENCE", "3581.0800", "2019-07-09T00:00:00", "Westfield", "Notheastern", "3", [ null, "39.36506628", "-76.55797839", null, false ], "256", "260", "27291" ]
+, [ "row-q8qs-h7nb-spnu", "00000000-0000-0000-4EC9-0055E3A3C0D1", 0, 1528218950, null, 1528372860, null, "{ }", "0334056", "0334", "056", "14", "020", "1744 PARK AVE", "15-6X90-5        ", "5957.2", "296.8", "NOT A PRINCIPAL RESIDENCE", null, "2018-06-06T00:00:00", "Bolton Hill", "Central", "11", [ null, "39.3101618", "-76.62820106", null, false ], "21", "102", "27301" ]
+, [ "row-pexb_tdjk.jgja", "00000000-0000-0000-74E7-1889A21E2AD2", 0, 1528218950, null, 1564570800, null, "{ }", "0016007", "0016", "007", "15", "140", "1612 N GILMOR ST", "12-6X90          ", "1011.6000", "50.4000", "PRINCIPAL RESIDENCE      ", "123.7700", "2019-07-30T00:00:00", "Sandtown-Winchester", "Western", "7", [ null, "39.30712941", "-76.64369244", null, false ], "221", "36", "27301" ]
+, [ "row-hgf5-f4x6.mpze", "00000000-0000-0000-A1D2-2EC900765C87", 0, 1528218950, null, 1562770028, null, "{ }", "5489046", "5489", "046", "27", "340", "2710 FLEETWOOD AVE", "50X136           ", "5175.6400", "257.8600", "PRINCIPAL RESIDENCE      ", "4831.7300", "2019-07-09T00:00:00", "Westfield", "Notheastern", "3", [ null, "39.36427688", "-76.557197", null, false ], "256", "260", "27291" ]
+, [ "row-y2q6-pt2p.ddfr", "00000000-0000-0000-EFAA-7882D8754A42", 0, 1528218950, null, 1528218998, null, "{ }", "0547B147B", "0547B", "147B", "17", "080", "616 N EUTAW ST U# F", "568 SQ FT        ", "1339.81", "66.75", "NOT A PRINCIPAL RESIDENCE", null, "2018-06-04T00:00:00", null, null, null, null, null, null, null ]
+, [ "row-tpp9.mzc6~gqwn", "00000000-0000-0000-83E3-41FCD36AA43C", 0, 1528218950, null, 1562770028, null, "{ }", "5489053", "5489", "053", "27", "340", "2804 FLEETWOOD AVE", "43-9X150-11      ", "4073.3800", "202.9400", "PRINCIPAL RESIDENCE      ", "3498.2700", "2019-07-09T00:00:00", "Westfield", "Notheastern", "3", [ null, "39.36408138", "-76.55669247", null, false ], "256", "260", "27291" ]
+, [ "row-iqb9~976i.s89w", "00000000-0000-0000-8946-9CC480C63D70", 0, 1528218950, null, 1564570800, null, "{ }", "0254050", "0254", "050", "18", "090", "102 SCOTT ST", "26-5X57-6        ", "5428.1800", "270.4400", "NOT A PRINCIPAL RESIDENCE", "30.0600", "2019-07-30T00:00:00", "Hollins Market", "Southern", "9", [ null, "39.28662991", "-76.62925206", null, false ], "114", "7", "13642" ]
+, [ "row-7qzk.3wm8_rj86", "00000000-0000-0000-258E-764D324DB541", 0, 1528218950, null, 1538481642, null, "{ }", "0064024", "0064", "024", "16", "120", "1346 MOSHER ST", "15-6X62          ", "332.7", "16.58", "NOT A PRINCIPAL RESIDENCE", "276.06", "2018-10-01T00:00:00", "Sandtown-Winchester", "Western", "9", [ null, "39.30025466", "-76.64005388", null, false ], "221", "15", "27301" ]
+, [ "row-472h-wjfb.7ug7", "00000000-0000-0000-0D47-7ACA5321B313", 0, 1528218950, null, 1564657370, null, "{ }", "5180056", "5180", "056", "27", "470", "618 RADNOR AVE", "19-9X100         ", "1713.7200", "85.3800", "NOT A PRINCIPAL RESIDENCE", "1799.1000", "2019-07-31T00:00:00", "Winston-Govans", "Northern", "4", [ null, "39.34776202", "-76.60631405", null, false ], "261", "217", "14009" ]
+, [ "row-c9t2_asne-atqm", "00000000-0000-0000-6BBF-030D542DC0D7", 0, 1528218950, null, 1564657381, null, "{ }", "5411010", "5411", "010", "27", "270", "5502 HAMLET AVE", "55X154-1         ", "3297.8200", "164.3000", "PRINCIPAL RESIDENCE      ", "1490.9000", "2019-07-31T00:00:00", "Hamilton Hills", "Notheastern", "3", [ null, "39.35657248", "-76.5650336", null, false ], "105", "260", "27291" ]
+, [ "row-48j8_jadk~4dmg", "00000000-0000-0000-B551-54D7D0BB7E35", 0, 1528218950, null, 1564657381, null, "{ }", "5411011", "5411", "011", "27", "270", "5504 HAMLET AVE", "55X194-3         ", "2973.3600", "148.1400", "NOT A PRINCIPAL RESIDENCE", "3121.5000", "2019-07-31T00:00:00", "Hamilton Hills", "Notheastern", "3", [ null, "39.35671131", "-76.56498796", null, false ], "105", "260", "27291" ]
+, [ "row-tspd_cfgt_pxwv", "00000000-0000-0000-B73B-E08E94E48421", 0, 1528218950, null, 1564657381, null, "{ }", "5411A001", "5411A", "001", "27", "310", "5600 BIRCHWOOD AVE", "45X130           ", "3127.7100", "155.8300", "PRINCIPAL RESIDENCE      ", "1420.0500", "2019-07-31T00:00:00", "Hamilton Hills", "Notheastern", "3", [ null, "39.35724394", "-76.56504973", null, false ], "105", "260", "27291" ]
+, [ "row-uvhk~mnt9.qeg9", "00000000-0000-0000-B3F6-7FB22BDAADD6", 0, 1528218950, null, 1564657430, null, "{ }", "8146060", "8146", "060", "25", "010", "4835 MELBOURNE ROAD", "28-5X104-3       ", "2722.3300", "135.6300", "PRINCIPAL RESIDENCE      ", "1306.7300", "2019-07-31T00:00:00", "Beechfield", "Southwestern", "8", [ null, "39.27283795", "-76.69843516", null, false ], "12", "163", "27950" ]
+, [ "row-jrfe-sfdq~tdre", "00000000-0000-0000-B318-50247E8CBE51", 0, 1528218950, null, 1564657430, null, "{ }", "8146065", "8146", "065", "25", "010", "4845 MELBOURNE ROAD", "16X115-10        ", "2412.1000", "120.1800", "PRINCIPAL RESIDENCE      ", "1163.4800", "2019-07-31T00:00:00", "Beechfield", "Southwestern", "8", [ null, "39.27288147", "-76.69879319", null, false ], "12", "163", "27950" ]
+, [ "row-g4ps~w39d_kjy2", "00000000-0000-0000-BE22-665DE6C9883F", 0, 1528218950, null, 1564657430, null, "{ }", "8146066", "8146", "066", "25", "010", "4847 MELBOURNE ROAD", "16X118-1         ", "2414.3500", "120.2900", "PRINCIPAL RESIDENCE      ", "1164.5200", "2019-07-31T00:00:00", "Beechfield", "Southwestern", "8", [ null, "39.27288826", "-76.69884945", null, false ], "12", "163", "27950" ]
+, [ "row-eqnz~kjaq_wsyt", "00000000-0000-0000-B861-7D76818B900B", 0, 1528218950, null, 1564657430, null, "{ }", "8146078", "8146", "078", "25", "010", "4871 MELBOURNE ROAD", "27-2X115-8       ", "2672.8700", "133.1700", "PRINCIPAL RESIDENCE      ", "1283.8900", "2019-07-31T00:00:00", "Beechfield", "Southwestern", "8", [ null, "39.27311978", "-76.69965159", null, false ], "12", "163", "27950" ]
+, [ "row-3u2q~bn9c.icwc", "00000000-0000-0000-FE2B-845FFCFA1CA8", 0, 1528218950, null, 1564657430, null, "{ }", "8146083", "8146", "083", "25", "010", "4881 MELBOURNE ROAD", "16X115           ", "2398.6200", "119.5000", "PRINCIPAL RESIDENCE      ", "1157.2500", "2019-07-31T00:00:00", "Beechfield", "Southwestern", "8", [ null, "39.27326515", "-76.699961", null, false ], "12", "163", "27950" ]
+, [ "row-4a6m~ts9a.63k6", "00000000-0000-0000-278F-D392696B3392", 0, 1528218950, null, 1564657430, null, "{ }", "8146085", "8146", "085", "25", "010", "4885 MELBOURNE ROAD", "26-3X115         ", "2771.7800", "138.1000", "PRINCIPAL RESIDENCE      ", "1329.5600", "2019-07-31T00:00:00", "Beechfield", "Southwestern", "8", [ null, "39.27331634", "-76.70009378", null, false ], "12", "163", "27950" ]
+, [ "row-64yd_6cc2.zfwv", "00000000-0000-0000-3F74-179DDE192C9B", 0, 1528218950, null, 1567162800, null, "{ }", "1936034", "1936", "034", "24", "070", "1526 JACKSON ST", "13X80            ", "6483.2300", "323.0100", "PRINCIPAL RESIDENCE      ", "1609.7100", "2019-08-29T00:00:00", "Riverside", "Southern", "11", [ null, "39.27216253", "-76.60530149", null, false ], "212", "170", "27953" ]
+, [ "row-8q4w.hgdg~u9vm", "00000000-0000-0000-BB34-0BD3FD5232B3", 0, 1528218950, null, 1562769899, null, "{ }", "5180A053", "5180A", "053", "27", "470", "609 WINSTON AVE", "20X90            ", "1324.0700", "65.9700", "NOT A PRINCIPAL RESIDENCE", "1383.4200", "2019-07-09T00:00:00", "Winston-Govans", "Northern", "4", [ null, "39.3498359", "-76.60731209", null, false ], "261", "217", "14009" ]
+, [ "row-hwgd_cx67_a8k6", "00000000-0000-0000-3267-1A95DC99403A", 0, 1528218950, null, 1562769902, null, "{ }", "5183098", "5183", "098", "27", "430", "811 RICHWOOD AVE", "16X80            ", "1683.7500", "83.8900", "NOT A PRINCIPAL RESIDENCE", "1759.2200", "2019-07-09T00:00:00", "Richnor Springs", "Northern", "4", [ null, "39.34621064", "-76.60449563", null, false ], "211", "217", "14009" ]
+, [ "row-q7ki~tube-rws8", "00000000-0000-0000-386E-5267C2082AB3", 0, 1528218950, null, 1564657213, null, "{ }", "0151017", "0151", "017", "19", "040", "333 N GILMOR ST", "18-4X93          ", "67.4400", "3.3600", "NOT A PRINCIPAL RESIDENCE", "70.8000", "2019-07-31T00:00:00", "Franklin Square", "Western", "9", [ null, "39.292973", "-76.64234596", null, false ], "84", "10", "27632" ]
+, [ "row-yz8g-mmtp~e9tm", "00000000-0000-0000-ADBB-3C0D35EF3EC7", 0, 1528218950, null, 1564657226, null, "{ }", "0247055", "0247", "055", "19", "120", "1415 LEMMON ST", "14-4X43          ", "476.5800", "23.7400", "NOT A PRINCIPAL RESIDENCE", "500.3200", "2019-07-31T00:00:00", "Union Square", "Southern", "9", [ null, "39.28582704", "-76.64019575", null, false ], "236", "9", "27632" ]
+, [ "row-dyk5~qwq7~j2ew", "00000000-0000-0000-502A-B1E07F54BCE0", 0, 1528218950, null, 1562769397, null, "{ }", "1936012", "1936", "012", "24", "070", "533 E FORT AVE", "12X64-10         ", "4237.4800", "211.1200", "PRINCIPAL RESIDENCE      ", "2665.9900", "2019-07-09T00:00:00", "Riverside", "Southern", "11", [ null, "39.27277962", "-76.60557438", null, false ], "212", "170", "27953" ]
+, [ "row-apg7~qdfw-2jrd", "00000000-0000-0000-CCC0-0FFF3B589C94", 0, 1528218950, null, 1564657289, null, "{ }", "1936014", "1936", "014", "24", "070", "537 E FORT AVE", "12X67-2          ", "5356.2400", "266.8600", "NOT A PRINCIPAL RESIDENCE", "2528.8600", "2019-07-31T00:00:00", "Riverside", "Southern", "11", [ null, "39.27277996", "-76.6054871", null, false ], "212", "170", "27953" ]
+, [ "row-w84z.ibrp-e5mt", "00000000-0000-0000-0AF4-8D603A801BD4", 0, 1528218950, null, 1564657289, null, "{ }", "1936015", "1936", "015", "24", "070", "539 E FORT AVE", "12X68-4          ", "5569.8000", "277.5000", "PRINCIPAL RESIDENCE      ", "2665.5000", "2019-07-31T00:00:00", "Riverside", "Southern", "11", [ null, "39.27278003", "-76.60544537", null, false ], "212", "170", "27953" ]
+, [ "row-wbg2-xka2_ytrn", "00000000-0000-0000-FECF-4B49B2F93B59", 0, 1528218950, null, 1564657289, null, "{ }", "1936016", "1936", "016", "24", "070", "541 E FORT AVE", "12X69-6          ", "4968.8200", "247.5600", "PRINCIPAL RESIDENCE      ", "2376.8800", "2019-07-31T00:00:00", "Riverside", "Southern", "11", [ null, "39.27278009", "-76.60540342", null, false ], "212", "170", "27953" ]
+, [ "row-gw3i-cjw9.cu2v", "00000000-0000-0000-4F19-4B89C2D34ECF", 0, 1528218950, null, 1564657289, null, "{ }", "1936018", "1936", "018", "24", "070", "545 E FORT AVE", "12X71-10         ", "5533.0700", "275.6700", "PRINCIPAL RESIDENCE      ", "2663.6900", "2019-07-31T00:00:00", "Riverside", "Southern", "11", [ null, "39.27277999", "-76.60532007", null, false ], "212", "170", "27953" ]
+, [ "row-b7up-ieki.82ib", "00000000-0000-0000-978D-32F4ED907E85", 0, 1528218950, null, 1562769397, null, "{ }", "1936021", "1936", "021", "24", "070", "1500 JACKSON ST", "14X80            ", "6298.1500", "313.7900", "NOT A PRINCIPAL RESIDENCE", "6580.4500", "2019-07-09T00:00:00", "Riverside", "Southern", "11", [ null, "39.272634", "-76.60533992", null, false ], "212", "170", "27953" ]
+, [ "row-aix2-nqbx-nh6y", "00000000-0000-0000-10C1-83B1B34A2210", 0, 1528218950, null, 1564657289, null, "{ }", "1936024", "1936", "024", "24", "070", "1506 JACKSON ST", "13X80            ", "6467.5000", "322.2200", "PRINCIPAL RESIDENCE      ", "3093.8200", "2019-07-31T00:00:00", "Riverside", "Southern", "11", [ null, "39.27251893", "-76.60532653", null, false ], "212", "170", "27953" ]
+, [ "row-viv8~dkf4.qmkq", "00000000-0000-0000-3DB9-25A16EAE21B8", 0, 1528218950, null, 1564657289, null, "{ }", "1936027", "1936", "027", "24", "070", "1512 JACKSON ST", "13X80            ", "7055.7300", "351.5300", "PRINCIPAL RESIDENCE      ", "3369.0900", "2019-07-31T00:00:00", "Riverside", "Southern", "11", [ null, "39.27241116", "-76.60531896", null, false ], "212", "170", "27953" ]
+, [ "row-drjj~nz4s-gdyy", "00000000-0000-0000-6D3C-AE0E477FAB3F", 0, 1528218950, null, 1564657289, null, "{ }", "1936029", "1936", "029", "24", "070", "1516 JACKSON ST", "13X80            ", "4902.1500", "244.2400", "PRINCIPAL RESIDENCE      ", "2349.1200", "2019-07-31T00:00:00", "Riverside", "Southern", "11", [ null, "39.27234034", "-76.60531398", null, false ], "212", "170", "27953" ]
+, [ "row-w8kk~d4tj-ck48", "00000000-0000-0000-80C1-1BD9E6F82925", 0, 1528218950, null, 1564657289, null, "{ }", "1936030", "1936", "030", "24", "070", "1518 JACKSON ST", "13X80            ", "4592.6600", "228.8200", "PRINCIPAL RESIDENCE      ", "1243.6900", "2019-07-31T00:00:00", "Riverside", "Southern", "11", [ null, "39.27230456", "-76.60531136", null, false ], "212", "170", "27953" ]
+, [ "row-8kvi_epp6_szth", "00000000-0000-0000-D72B-AF17D719C931", 0, 1528218950, null, 1564657290, null, "{ }", "1936031", "1936", "031", "24", "070", "1520 JACKSON ST", "13X80            ", "4877.4200", "243.0000", "PRINCIPAL RESIDENCE      ", "2362.2700", "2019-07-31T00:00:00", "Riverside", "Southern", "11", [ null, "39.27226873", "-76.60530904", null, false ], "212", "170", "27953" ]
+, [ "row-wf2q_hed7~ji8z", "00000000-0000-0000-E7EB-A2E7968EF389", 0, 1528218950, null, 1564657290, null, "{ }", "1936032", "1936", "032", "24", "070", "1522 JACKSON ST", "13X80            ", "4751.5300", "236.7300", "PRINCIPAL RESIDENCE      ", "4608.5800", "2019-07-31T00:00:00", "Riverside", "Southern", "11", [ null, "39.27223338", "-76.60530638", null, false ], "212", "170", "27953" ]
+, [ "row-h9ed~hdjt-j6er", "00000000-0000-0000-AA6D-C3C3E6DBF905", 0, 1528218950, null, 1564657381, null, "{ }", "5411A002", "5411A", "002", "27", "310", "5602 BIRCHWOOD AVE", "45X130           ", "2840.7300", "141.5300", "PRINCIPAL RESIDENCE      ", "1265.8600", "2019-07-31T00:00:00", "Hamilton Hills", "Notheastern", "3", [ null, "39.35736833", "-76.56504192", null, false ], "105", "260", "27291" ]
+, [ "row-xgw6.788k~7eyn", "00000000-0000-0000-774B-E6835AD0A012", 0, 1528218950, null, 1564657430, null, "{ }", "8149001", "8149", "001", "25", "010", "700 S BEECHFIELD AVE", "44-3X125-11      ", "3077.5100", "153.3300", "PRINCIPAL RESIDENCE      ", "1495.3000", "2019-07-31T00:00:00", "Beechfield", "Southwestern", "8", [ null, "39.27141528", "-76.69288669", null, false ], "12", "163", "27950" ]
+, [ "row-sxtt~cktn~a2h4", "00000000-0000-0000-7647-5653846AB2F4", 0, 1528218950, null, 1564657431, null, "{ }", "8149012", "8149", "012", "25", "010", "728 S BEECHFIELD AVE", "48X115           ", "3412.4600", "170.0200", "PRINCIPAL RESIDENCE      ", "1638.3100", "2019-07-31T00:00:00", "Beechfield", "Southwestern", "8", [ null, "39.26967898", "-76.69215874", null, false ], "12", null, "27950" ]
+, [ "row-iz9c_zshi~z6c3", "00000000-0000-0000-7A2B-C43146C39FDA", 0, 1528218950, null, 1564743604, null, "{ }", "8149035A", "8149", "035A", "25", "010", "716 DORCHESTER ROAD", "56-7X116-5       ", "2935.8900", "146.2700", "PRINCIPAL RESIDENCE      ", "1424.2200", "2019-08-02T00:00:00", "Beechfield", "Southwestern", "8", [ null, "39.27032336", "-76.69361759", null, false ], "12", null, "27950" ]
+, [ "row-6xs5.anhm.7tat", "00000000-0000-0000-901C-555648C53772", 0, 1528218950, null, 1544014839, null, "{ }", "8149047A", "8149", "047A", "25", "010", "708 DEVONSHIRE ROAD", "50X120           ", "2641.4", "131.6", "NOT A PRINCIPAL RESIDENCE", null, "2018-12-04T00:00:00", "Beechfield", "Southwestern", "8", [ null, "39.27082272", "-76.6947702", null, false ], "12", null, "27950" ]
+, [ "row-nfwe.pueu-ghtd", "00000000-0000-0000-67E8-D26529E785DC", 0, 1528218950, null, 1565002809, null, "{ }", "5411A003", "5411A", "003", "27", "310", "5604 BIRCHWOOD AVE", "45X130           ", "3691.9600", "183.9400", "PRINCIPAL RESIDENCE      ", "3550.0400", "2019-08-03T00:00:00", "Hamilton Hills", "Notheastern", "3", [ null, "39.35749171", "-76.56503366", null, false ], "105", "260", "27291" ]
+, [ "row-rdmz~mdu5-q4fj", "00000000-0000-0000-BA41-6288AEE25077", 0, 1528218950, null, 1564657226, null, "{ }", "0248002", "0248", "002", "19", "130", "1303 W LOMBARD ST", "16X53 10         ", "3241.6200", "161.5000", "NOT A PRINCIPAL RESIDENCE", "3403.1200", "2019-07-31T00:00:00", "Union Square", "Southern", "9", [ null, "39.28636107", "-76.63820653", null, false ], "236", "9", "27632" ]
+, [ "row-bwb2~772m.98sr", "00000000-0000-0000-CD51-806FAFFC4B01", 0, 1528218950, null, 1564657226, null, "{ }", "0248007", "0248", "007", "19", "130", "1313 W LOMBARD ST", "17X150           ", "3910.7800", "194.8400", "NOT A PRINCIPAL RESIDENCE", "4105.6200", "2019-07-31T00:00:00", "Union Square", "Southern", "9", [ null, "39.28621857", "-76.63849958", null, false ], "236", "9", "27632" ]
+, [ "row-7q3m-xgy9~cwqt", "00000000-0000-0000-22F0-47C323F3FA5A", 0, 1528218950, null, 1564657226, null, "{ }", "0248013", "0248", "013", "19", "130", "1325 W LOMBARD ST", "17X150           ", "6591.1400", "328.3800", "PRINCIPAL RESIDENCE      ", "164.2000", "2019-07-31T00:00:00", "Union Square", "Southern", "9", [ null, "39.2862061", "-76.63885987", null, false ], "236", "9", "27632" ]
+, [ "row-c8sz.4dba~8di8", "00000000-0000-0000-7D2B-DF30BDE28554", 0, 1528218950, null, 1562769903, null, "{ }", "5183B034", "5183B", "034", "27", "410", "4811 KIMBERLEIGH ROAD", "37-3X79          ", "1958.0100", "97.5500", "NOT A PRINCIPAL RESIDENCE", "2045.7700", "2019-07-09T00:00:00", "Kenilworth Park", "Northern", "4", [ null, "39.34746626", "-76.60283216", null, false ], "127", "217", "14009" ]
+, [ "row-3gbx~8bud_9smu", "00000000-0000-0000-62AC-62383D2DA256", 0, 1528218950, null, 1564657290, null, "{ }", "1936038", "1936", "038", "24", "070", "1534 JACKSON ST", "15X80            ", "8571.6200", "427.0600", "PRINCIPAL RESIDENCE      ", "4071.5000", "2019-07-31T00:00:00", "Riverside", "Southern", "11", [ null, "39.27201592", "-76.60529038", null, false ], "212", "170", "27953" ]
+, [ "row-c4i6.ggqm-6bdr", "00000000-0000-0000-40E8-EC84D40BBA3F", 0, 1528218950, null, 1564657290, null, "{ }", "1936039", "1936", "039", "24", "070", "510 E RANDALL ST", "15X80            ", "7444.6300", "370.9100", "PRINCIPAL RESIDENCE      ", "3461.7600", "2019-07-31T00:00:00", "Riverside", "Southern", "11", [ null, "39.27208199", "-76.60595204", null, false ], "212", "170", "27953" ]
+, [ "row-6h67~qwpa-zfpf", "00000000-0000-0000-FF97-C5C477BA2924", 0, 1528218950, null, 1564657371, null, "{ }", "5191052", "5191", "052", "27", "410", "WS KENILWORTH AV", "25X112-9         ", "125.89", "6.27", "NOT A PRINCIPAL RESIDENCE", "132.1600", "2019-07-31T00:00:00", "Wilson Park", "Northern", "4", [ null, "39.34472896", "-76.60104109", null, false ], "259", "217", "14009" ]
+, [ "row-ihtq~qx5w_cpnj", "00000000-0000-0000-E415-A62DECB50246", 0, 1528218950, null, 1564657371, null, "{ }", "5191053", "5191", "053", "27", "410", "WS KENILWORTH AV", "25X112-9         ", "125.89", "6.27", "NOT A PRINCIPAL RESIDENCE", "132.1600", "2019-07-31T00:00:00", "Wilson Park", "Northern", "4", [ null, "39.34466073", "-76.60105107", null, false ], "259", "217", "14009" ]
+, [ "row-sjwc-gmir-texp", "00000000-0000-0000-B335-BC4186D86490", 0, 1528218950, null, 1562769206, null, "{ }", "0248015", "0248", "015", "19", "130", "1329 W LOMBARD ST", "20X150           ", "4033.6500", "200.9600", "NOT A PRINCIPAL RESIDENCE", "4214.4400", "2019-07-09T00:00:00", "Union Square", "Southern", "9", [ null, "39.28620177", "-76.63898599", null, false ], "236", "9", "27632" ]
+, [ "row-9ejn_3j6m_hsew", "00000000-0000-0000-83A1-91CA41B67B28", 0, 1528218950, null, 1564657381, null, "{ }", "5411A008", "5411A", "008", "27", "310", "5614 BIRCHWOOD AVE", "47-6X130         ", "2944.8800", "146.7200", "PRINCIPAL RESIDENCE      ", "1418.1500", "2019-07-31T00:00:00", "Hamilton Hills", "Notheastern", "3", [ null, "39.35811203", "-76.56499212", null, false ], "105", "260", "27291" ]
+, [ "row-28aw.krue~rbgm", "00000000-0000-0000-FE18-ABDEF46FE390", 0, 1528218950, null, 1564657381, null, "{ }", "5411A010", "5411A", "010", "27", "310", "5615 FAIR OAKS AVE", "45X150           ", "3294.0600", "164.1200", "PRINCIPAL RESIDENCE      ", "1575.5900", "2019-07-31T00:00:00", "Hamilton Hills", "Notheastern", "3", [ null, "39.35826598", "-76.56547379", null, false ], "105", "260", "27291" ]
+, [ "row-t7hj-jv7z.73rj", "00000000-0000-0000-F773-09183BF2A128", 0, 1528218950, null, 1562769397, null, "{ }", "1936036", "1936", "036", "24", "070", "1530 JACKSON ST", "13X80            ", "5181.6400", "258.1600", "PRINCIPAL RESIDENCE      ", "4123.7400", "2019-07-09T00:00:00", "Riverside", "Southern", "11", [ null, "39.27209164", "-76.60529648", null, false ], "212", "170", "27953" ]
+, [ "row-w3rb~cthy.s4wg", "00000000-0000-0000-9B62-8386C93DDF2A", 0, 1528218950, null, 1562769397, null, "{ }", "1936037", "1936", "037", "24", "070", "1532 JACKSON ST", "13X80            ", "6302.6500", "314.0100", "PRINCIPAL RESIDENCE      ", "6014.6200", "2019-07-09T00:00:00", "Riverside", "Southern", "11", [ null, "39.27205607", "-76.60529381", null, false ], "212", "170", "27953" ]
+, [ "row-xiqc.hpwb_hekz", "00000000-0000-0000-19C2-BB59C35B0344", 0, 1528218950, null, 1564657431, null, "{ }", "8149038", "8149", "038", "25", "010", "705 DEVONSHIRE ROAD", "50X124           ", "2841.4700", "141.5700", "PRINCIPAL RESIDENCE      ", "1386.5900", "2019-07-31T00:00:00", "Beechfield", "Southwestern", "8", [ null, "39.2710896", "-76.69430212", null, false ], "12", "163", "27950" ]
+, [ "row-c3ym_ng2h.rjqq", "00000000-0000-0000-CE74-7DF45BA64842", 0, 1528218950, null, 1564657431, null, "{ }", "8149040", "8149", "040", "25", "010", "709 DEVONSHIRE ROAD", "50X120-10        ", "4966.5700", "247.4400", "PRINCIPAL RESIDENCE      ", "2365.1800", "2019-07-31T00:00:00", "Beechfield", "Southwestern", "8", [ null, "39.27082409", "-76.69421195", null, false ], "12", "163", "27950" ]
+, [ "row-7z64-5ms8~e6uf", "00000000-0000-0000-5ABC-8EDF49595B27", 0, 1528218950, null, 1562770368, null, "{ }", "8489001", "8489", "001", "28", "040", "4500 FAIRVIEW AVE", "75X120           ", "2023.2000", "100.8000", "NOT A PRINCIPAL RESIDENCE", "2113.8800", "2019-07-09T00:00:00", "West Forest Park", "Northwestern", "8", [ null, "39.32126672", "-76.69246747", null, false ], "253", "58", "27297" ]
+, [ "row-jy9w_vb9g.aaej", "00000000-0000-0000-EE4A-AF341C960A4E", 0, 1528218950, null, 1564657435, null, "{ }", "8490002", "8490", "002", "28", "040", "4303 FAIRVIEW AVE", "37X141-8         ", "2884.1800", "143.7000", "PRINCIPAL RESIDENCE      ", "2314.2400", "2019-07-31T00:00:00", "West Forest Park", "Northwestern", "8", [ null, "39.32141639", "-76.69015199", null, false ], "253", "58", "27297" ]
+, [ "row-iwvf-7gb2~rzg4", "00000000-0000-0000-AC16-6EFB88FD4DCB", 0, 1528218950, null, 1564657435, null, "{ }", "8490004", "8490", "004", "28", "040", "4307 FAIRVIEW AVE", "35X180-6         ", "2886.4300", "143.8100", "PRINCIPAL RESIDENCE      ", "1158.8200", "2019-07-31T00:00:00", "West Forest Park", "Northwestern", "8", [ null, "39.32126735", "-76.69034686", null, false ], "253", "58", "27297" ]
+, [ "row-ryur~xajn_rij4", "00000000-0000-0000-69CC-79E3A7B96660", 0, 1528218950, null, 1564657435, null, "{ }", "8490005", "8490", "005", "28", "040", "4309 FAIRVIEW AVE", "35X180-6         ", "3043.7900", "151.6500", "PRINCIPAL RESIDENCE      ", "1241.9100", "2019-07-31T00:00:00", "West Forest Park", "Northwestern", "8", [ null, "39.32123536", "-76.69046327", null, false ], "253", "58", "27297" ]
+, [ "row-26ew-jyvj_qscx", "00000000-0000-0000-54DA-F244A65709F9", 0, 1528218950, null, 1564657435, null, "{ }", "8490006", "8490", "006", "28", "040", "4311 FAIRVIEW AVE", "35X175-9         ", "2850.4600", "142.0200", "PRINCIPAL RESIDENCE      ", "1365.8900", "2019-07-31T00:00:00", "West Forest Park", "Northwestern", "8", [ null, "39.3212126", "-76.690584", null, false ], "253", "58", "27297" ]
+, [ "row-49pd~xncz.mmr4", "00000000-0000-0000-8BE2-DE563CB1AEE9", 0, 1528218950, null, 1564657435, null, "{ }", "8491016", "8491", "016", "28", "040", "4506 WAKEFIELD ROAD", "50X117-2         ", "2726.8200", "135.8600", "PRINCIPAL RESIDENCE      ", "2661.3400", "2019-07-31T00:00:00", "West Forest Park", "Northwestern", "8", [ null, "39.31954138", "-76.69172211", null, false ], "253", "58", "27297" ]
+ ]
+}
