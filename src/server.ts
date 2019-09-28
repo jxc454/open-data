@@ -4,13 +4,14 @@ import { buildSchema } from 'type-graphql'
 import PretendResolver from "./resolvers/pretend";
 import 'reflect-metadata';
 import {createConnection} from "typeorm";
+import TaxesResolver from "./resolvers/taxes";
 
 const main = async () => {
     await createConnection();
 
     const PORT = 4000;
     const schema = await buildSchema({
-        resolvers: [PretendResolver],
+        resolvers: [PretendResolver, TaxesResolver],
     });
 
     const apolloServer = new ApolloServer({ schema });
