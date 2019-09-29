@@ -1,5 +1,5 @@
 import 'reflect-metadata'
-import { Mutation, Query, Resolver } from 'type-graphql'
+import { Arg, Mutation, Query, Resolver } from 'type-graphql'
 import { makeTaxes, Taxes } from '../entities/taxes.entity'
 import { readTaxes, validateTaxes } from '../taxes/taxes_lib'
 import { remove } from 'lodash'
@@ -8,10 +8,14 @@ import { getConnection } from 'typeorm'
 @Resolver(() => Taxes)
 export default class TaxesResolver {
     @Query(() => [Taxes!]!)
-    public async getTaxes(): Promise<Taxes[]> {
-        return await Taxes.find()
+    public async getTaxes(
+        @Arg('take') take: number,
+        @Arg('skip') skip: number
+    ): Promise<Taxes[]> {
+        return await Taxes.find({ take, skip })
     }
 
+    // TODO how to get a valid argument here?
     @Mutation(() => String)
     public async writeTaxes(): // @Arg('data1') data1: Array<object>
     Promise<string> {
