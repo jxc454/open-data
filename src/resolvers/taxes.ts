@@ -1,18 +1,34 @@
 import 'reflect-metadata'
-import { Arg, Mutation, Query, Resolver } from 'type-graphql'
+import { Arg, Field, InputType, Mutation, Query, Resolver } from 'type-graphql'
 import { makeTaxes, Taxes } from '../entities/taxes.entity'
 import { readTaxes, validateTaxes } from '../taxes/taxes_lib'
 import { remove } from 'lodash'
 import { getConnection } from 'typeorm'
+import { Min } from 'class-validator'
+
+@InputType()
+class GetTaxesInput {
+    @Field()
+    @Min(1)
+    public take: number
+
+    @Field()
+    @Min(0)
+    public skip: number
+}
 
 @Resolver(() => Taxes)
 export default class TaxesResolver {
     @Query(() => [Taxes!]!)
-    public async getTaxes(
-        @Arg('take') take: number,
-        @Arg('skip') skip: number
-    ): Promise<Taxes[]> {
+    public async getTaxes(@Arg('input') { take, skip }: GetTaxesInput): Promise<
+        Taxes[]
+    > {
         return await Taxes.find({ take, skip })
+    }
+
+    @Query(() => [Taxes!]!)
+    public async getTaxesById(@Arg('id') id: string): Promise<Taxes[]> {
+        return Taxes.findByIds([id])
     }
 
     // TODO how to get a valid argument here?

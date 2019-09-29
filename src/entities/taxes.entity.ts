@@ -1,6 +1,6 @@
 import 'reflect-metadata'
 import { BaseEntity, Entity, PrimaryColumn } from 'typeorm'
-import { Field, ID, ObjectType, Float, Int, ArgsType } from 'type-graphql'
+import {Field, ID, ObjectType, Float, Int, ArgsType, FieldResolver, Root} from 'type-graphql'
 import { Column } from 'typeorm'
 import { v4 as uuidv4 } from 'uuid'
 import isUUID = require('validator/lib/isUUID')
@@ -69,13 +69,19 @@ export class Taxes extends BaseEntity {
     @Column({ type: 'text', name: 'lot_size' })
     public lotSize: string
 
-    @Field(() => Float)
+    @Field(() => Float, { nullable: true })
     @Column({ type: 'real', name: 'city_tax' })
-    public cityTax: number
+    public cityTax?: number | null
 
-    @Field(() => Float)
+    @Field(() => Boolean)
+    public highClass(
+        @Root() parent: Taxes) {
+        return parent.cityTax >= 10000
+    }
+
+    @Field(() => Float, { nullable: true })
     @Column({ type: 'real', name: 'state_tax' })
-    public stateTax: number
+    public stateTax?: number | null
 
     @Field(() => Float)
     @Column({ type: 'text', name: 'res_code' })
