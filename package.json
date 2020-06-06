@@ -13,7 +13,7 @@
     "start": "npm-run-all clean build --parallel watch:build watch:server --print-label"
   },
   "dependencies": {
-    "apollo-server-express": "^2.9.4",
+    "apollo-server-express": "^2.14.2",
     "class-validator": "^0.10.1",
     "express": "^4.17.1",
     "graphql": "^14.5.8",
